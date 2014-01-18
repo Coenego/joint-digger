@@ -4,7 +4,7 @@ require.config({
 
         // Core
         'bootstrap': 'vendor/js/bootstrap/dist/js/bootstrap.min',
-        'box2d': 'vendor/js/box2d-html5/package/box2d-html5',
+        'box2d': 'vendor/js/box2dweb/Box2dWeb-2.1.a.3',
         'jquery': 'vendor/js/jquery/jquery.min',
         'lodash': 'vendor/js/lodash/dist/lodash.underscore.min',
 

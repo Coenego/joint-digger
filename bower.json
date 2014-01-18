@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "dependencies": {
     "bootstrap": "~3.0.0",
-    "box2d-html5": "~0.1.230",
+    "box2dweb": "latest",
     "jquery": "~1.7.2",
     "lodash": "~2.2.1",
     "requirejs": "~2.1.9"
