@@ -1,0 +1,9 @@
+{
+  "name": "joint-digger",
+  "description": "Joint Digger",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Coenego/joint-digger.git"
+  }
+}
