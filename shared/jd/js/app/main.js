@@ -6,6 +6,9 @@ define([
         // Application configuration
         'config',
 
+        // Models
+        'vehicle'
+
         // Controllers
         'keyboardController', 'soundController'
 

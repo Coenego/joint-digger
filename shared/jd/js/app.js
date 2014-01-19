@@ -12,6 +12,7 @@ require.config({
         'config': 'jd/js/app/config',
 
         // Models
+        'vehicle': 'jd/js/app/models/Vehicle',
 
         // Controllers
         'keyboardController': 'jd/js/app/controllers/interact/KeyboardController',
