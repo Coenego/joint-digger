@@ -4,10 +4,21 @@ define([
         'jquery', 'lodash', 'box2d',
 
         // Application configuration
-        'config'
+        'config',
 
-    ], function($, _, config) {
+        // Controllers
+        'keyboardController'
+
+    ], function($, _, box2d, config, KeyboardController) {
         'use strict';
+
+        /**
+         * Function that adds eventlisteners to the window object
+         */
+        var addBinding = function() {
+            window.addEventListener('keyup', KeyboardController.onKeyUp, false);
+            window.addEventListener('keydown', KeyboardController.onKeyDown, false);
+        };
 
         /**
          * Function that initializes application
@@ -70,8 +81,8 @@ define([
 
             function update() {
                 world.Step(1/60,10,10);
-                 world.DrawDebugData();
-                 world.ClearForces();
+                world.DrawDebugData();
+                world.ClearForces();
             };
 
             //http://js-tut.aardon.de/js-tut/tutorial/position.html
@@ -98,6 +109,7 @@ define([
          * Initialization
          */
         $(function() {
+            addBinding();
             init();
         });
     }

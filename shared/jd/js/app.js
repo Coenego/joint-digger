@@ -9,7 +9,12 @@ require.config({
         'lodash': 'vendor/js/lodash/dist/lodash.underscore.min',
 
         // Config
-        'config': 'jd/js/app/config'
+        'config': 'jd/js/app/config',
+
+        // Models
+
+        // Controllers
+        'keyboardController': 'jd/js/app/controllers/KeyboardController'
     },
     shim: {
         'bootstrap': {
