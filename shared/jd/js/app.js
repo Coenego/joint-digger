@@ -14,7 +14,8 @@ require.config({
         // Models
 
         // Controllers
-        'keyboardController': 'jd/js/app/controllers/KeyboardController'
+        'keyboardController': 'jd/js/app/controllers/interact/KeyboardController',
+        'soundController': 'jd/js/app/controllers/interact/SoundController'
     },
     shim: {
         'bootstrap': {

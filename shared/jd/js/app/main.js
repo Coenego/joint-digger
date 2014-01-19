@@ -7,9 +7,9 @@ define([
         'config',
 
         // Controllers
-        'keyboardController'
+        'keyboardController', 'soundController'
 
-    ], function($, _, box2d, config, KeyboardController) {
+    ], function($, _, box2d, config, KeyboardController, SoundController) {
         'use strict';
 
         /**
@@ -21,10 +21,12 @@ define([
         };
 
         /**
-         * Function that initializes application
+         * Function that initializes the application
          */
         var init = function() {
 
+            // Initialize the sound controller
+            SoundController.init();
         };
 
         /**
